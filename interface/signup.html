@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+    <title>Dr Onco - Signup</title>
+    <meta name="title" content="Dr Onco - Signup">
+    <meta name="”description”" content="Dr Onco uses deep learning and imaging process to predict the output.">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137964068-1"></script>
+
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-137964068-1');
+		  gtag('config', 'AW-796459575');
+		</script>
+
+		<!-- Event snippet for Deep Diagnosis Registration conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+		function gtag_report_conversion(url) {
+		  var callback = function () {
+		    if (typeof(url) != 'undefined') {
+		      window.location = url;
+		    }
+		  };
+		  gtag('event', 'conversion', {
+		      'send_to': 'AW-796459575/KIdRCPnIyJkBELeE5PsC',
+		      'event_callback': callback
+		  });
+		  return false;
+		}
+		</script>
+	</head>
+	<body id="container" style="background-color:#074665" >
+    <div id="header">
+      
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+      <meta charset="UTF-8">
+      <link rel="shortcut icon" href="/static/img/favicon.ico">
+      <!-- jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- Semantic Main CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+      <!-- Semantic Reset CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/reset.min.css"/>
+      <!-- Semantic Menu CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/menu.min.css"/>
+      <!-- Main Semantic JS  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="/static/css/custom.css">
+      <!-- Browser tab name -->
+      <title>Sign up</title>
+      <!-- Navbar -->
+      <div id="navbar" class="ui attached inverted menu">
+        <a class="item" href="index.html">Home</a>
+        <a class="item" href="howtouse.html">How To Use</a>
+        <a class="item" href="coretechnology.html">Core Technology</a>
+        <a class="item" href="contact.html">Contact</a>
+        <div class="right menu">
+          <!-- User is logged in -->
+          <div class="item">
+            <a class="ui primary button" href="login.html">Login</a>
+          </div>
+          <div class="item">
+            <a class="ui default button" href="">Sign Up</a>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+   	<!-- Message flashing -->
+   		<div id="body" class="body" >
+   			<center>
+          <h1 style="font-size: 50px; color: red;">Dr Onco</h1>
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            /* Create three equal columns that floats next to each other */
+            .column {
+              float: left;
+              width: 33.33%;
+              padding: 10px;
+              height: 300px; /* Should be removed. Only for demonstration */
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            @media screen and (max-width: 600px) {
+              #navbar>.item:nth-child(3) {
+                display: none;
+              }
+              #navbar>.item:nth-child(4) {
+                display: none;
+              }
+            }
+          </style>
+        </head>
+        <body>
+          <div class="ui form-user center raised very padded text container segment" id="signupform">
+            <form class="ui form" action="" method="post">
+              <h4 class="ui dividing header">Sign Up</h4>
+                
+              <div class="field">
+                <input class="field" id="first_name" name="first_name" name_="first_name" placeholder="First Name" type="text" value="">
+              </div>
+                
+
+                    
+              <div class="field">
+                <input class="field" id="last_name" name="last_name" name_="last_name" placeholder="Last Name" type="text" value="">
+              </div>
+                
+
+                    
+              <div class="field">
+                <input class="field" id="country" name="country" name_="country" placeholder="Country" type="text" value="">
+              </div>
+                
+
+                    
+                    
+              <div class="field">
+                <input class="field" id="email" name="email" name_="email" placeholder="Email address" type="text" value="">
+              </div>
+                
+
+                    
+              <div class="field">
+                <input class="field" id="password" name="password" name_="password" placeholder="Password" type="password" value="">
+              </div>
+                
+
+                    
+              <div class="field">
+                <input class="field" id="confirm" name="confirm" name_="confirm" placeholder="Confirm password" type="password" value="">
+              </div>
+                
+
+              <div align="left">
+                      <input type="checkbox" name="tos" required=""><font color="gray"> I've accepted the Terms of Use and Privacy Policy</font>
+                      <h2></h2>
+                      </div>
+              <input id="csrf_token" name="csrf_token" type="hidden" value="1620013293##63fb9e41de64acfd02382b6fc289bbd40539fb6d">
+              <button class="ui primary button" type="submit" onclick="gtag_report_conversion()">Submit</button>
+            </form>
+          </div>
+
+          <style>
+            @media screen and (max-width: 600px) {
+              #signupform {
+                width:75% !important;
+              }
+            }
+          </style>
+        </body>
+      </center>
+    </div>
+      <div id="footer">
+        <div class="ui divider"></div>
+        <div class="ui divided horizontal footer link list">
+        </div>
+        <font color="white">Copyright© 2021 Dr Onco™. All Rights Reserved.</font>
+        <br>
+      </div>
+	</body>
+</html>
